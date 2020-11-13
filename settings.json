@@ -1,6 +1,6 @@
 {
     "id": "FlashArray SCOM Management Pack",
-    "name": "Pure Storage FlashArray SCOM Management Pack",
+    "name": "FlashArray SCOM Management Pack",
     "filter": "devops microsoft",
     "image": "http://code.purestorage.com/images/30_scom.png",
     "featured": 0,
