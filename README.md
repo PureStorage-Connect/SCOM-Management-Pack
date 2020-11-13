@@ -8,9 +8,6 @@ Storage FlashArray endpoints are configured, FlashArray object data and alert in
 
 :octocat: [Github Repository for SCOM scripts and utilities](https://github.com/PureStorage-OpenConnect/FlashArray-SCOM-Scripts)
 
-### Note: 
-Pure Storage recommends for large SCOM environments with multiple SCOM instances that, if possible, new releases of Management Packs be initially installed on a single SCOM instance first and tested for changes before deploying to all instances.
-
 ## :floppy_disk: INSTALLATION
 A standalone MSI installer is provided to install the management pack. The MSI installer is available via the "Releases" icon in this repository. The direct link is available in the DOWNLOADS section below. The PDF documentation provided in this repository contains all of the information for system requirements, installation, and configuration the Management Pack.
 
