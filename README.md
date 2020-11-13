@@ -4,7 +4,7 @@
 
 The Pure Storage SCOM Management Pack provides integration with the Purity Operating Environment and Systems Center Operations Manager. Installing the management pack involves installing the Pure Storage® FlashArray solution and then configuring a Pure Storage FlashArray endpoint for each FlashArray to be monitored. Once the Pure
 Storage FlashArray endpoints are configured, FlashArray object data and alert information is collected. After the data has been pulled into SCOM, the information can be used to analyze capacity and performance statistics, determine the health of the array objects, determine any risks, forecast growth, generate custom workloads, analyze alerts, and monitor FlashArrays' volumes, hosts, and host groups.
-[For more information on the Management Pack, please consult this article](https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/System_Center_Suite/System_Center_Operations_Manager_2012_R2_(SCOM))
+[For more information on the Management Pack, please consult this article](https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/System_Center_Suite/Management_Pack)
 
 :octocat: [Github Repository for SCOM scripts and utilities](https://github.com/PureStorage-OpenConnect/FlashArray-SCOM-Scripts)
 
