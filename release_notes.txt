@@ -1,31 +1,32 @@
 Pure Storage FlashArray Management Pack for Microsoft System Center Operations Manager
 Version 1.2.5.0 Release Notes
 
-Get the latest information about this release online at: https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/System_Center_Suite/System_Center_Operations_Manager_2012_R2_(SCOM)
+Get the latest information about this release online at: https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/System_Center_Suite/System_Center_Operations_Manager
  
  
 RELEASE COMPATIBILITY
-This release is compatible with FlashArrays with Purity Operating Environment 4.7.0 and above.
-This release requires Microsoft System Center Operations Manager 2012R2, 2016, or 2019
+- This release is compatible with FlashArrays with Purity Operating Environment 4.7.0 and above.
+- This release requires Microsoft System Center Operations Manager 2012R2, 2016, or 2019
  
 NEW FEATURES
-Bulk overrides of SCOM overridable configuration parameters are now possible. This script will allow for the bulk changing of thresholds in Rules, Monitors, and Discoveries.
-Added a configuration parameter to disable logging to the array. This would decrease the amount of log entries related to the Management Pack operations.
-A Utility PowerShell module is added to package and released as Open Source in this Github Repository - https://github.com/PureStorage-OpenConnect/FlashArray-SCOM-Scripts 
+- Added a configuration parameter to disable logging to the array. This would decrease the amount of log entries related to the Management Pack operations.
+- Utility PowerShell module added to package and released as Open Source in this Github Repository
+- Allow bulk overrides of SCOM overridable configuration parameters.
+- Allow for the bulk changing of thresholds in Rules, Monitors, and Discoveries.
 
  
 FIXES
-Corrected the Pure Storage SCOM support link visible in the alerts.
-Corrected a metric unit issue in the Bandwidth and IOPS monitor and rule.
-Increased the default threshold value of the Bandwidth and IOPS monitor.
-Corrected a contradictory alert message in the Bandwidth and IOPS monitor. If the bandwidth/ IOPS exceeds the set threshold, an alert will be raised.
-Added alert messages for the Alert Rule Monitor and the Port Health Monitor.
+- Fixed resource leak problems that were triggered by running some rules, monitors and/or discovery tasks.
+- Corrected the Pure Storage SCOM support link visible in the alerts.
+- Corrected measurement unit issues in Bandwidth,IOPS monitor and rule.
+- Updated the default threshold value of the Bandwidth and IOPS monitors.
+- Fixed some incorrect alert messages.
+- Added alert messages for the Alert Rule Monitor and the Port Health Monitor.Fixed resource leak problems that were triggered by running some rules, monitors and/or discovery tasks.
  
 
 INSTALLATION AND UNINSTALLATION
-To install the Management Pack, extract and run SCOMManagementPackInstaller.msi, and follow the instructions.
-The software can be uninstalled from “Programs and Features” of the Control Panel.
-Pure Storage recommends for large SCOM environments with multiple SCOM instances that new releases of Management Packs be, if possible, initially installed on a single SCOM instance first and tested for changes before deploying to all instances.
+- To install the Management Pack, extract and run SCOMManagementPackInstaller.msi, and follow the instructions.
+- The software can be uninstalled from “Programs and Features” of the Control Panel.
 
 PERFORMANCE TESTING
 No performance testing was done for this release.
