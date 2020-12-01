@@ -19,7 +19,7 @@ A standalone MSI installer is provided to install the management pack. The MSI i
 <!-- /wp:separator -->
 
 ### :date: HISTORY
-* [v1.2.5.0] Current release
+* [v1.2.5.0] Issue discovered. Please use 1.1.99.0 until further update.
 * [v1.1.99.0]
 * [v1.0.91.0] Original release
 
