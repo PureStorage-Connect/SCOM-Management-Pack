@@ -19,9 +19,13 @@ A standalone MSI installer is provided to install the management pack. The MSI i
 <!-- /wp:separator -->
 
 ### :date: HISTORY
-* [v1.2.5.0] Issue discovered. Please use 1.1.99.0 until further update.
+* [v1.2.7.0] Current release
 * [v1.1.99.0]
 * [v1.0.91.0] Original release
+
+### :paperclip: RELEASE NOTES
+- Read the release_motes.md file in this repository
+- [For all versions release information, please consult this article](https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/System_Center_Suite/Management_Pack)
 
 
 <!-- wp:separator -->
