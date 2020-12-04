@@ -1,7 +1,7 @@
 ﻿# Pure Storage FlashArray Management Pack for Microsoft System Center Operations Manager
 # Version 1.2.7.0 Release Notes
 
-Get the latest information about this release online at: https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/System_Center_Suite/System_Center_Operations_Manager_2012_R2_(SCOM)
+Get the latest information about this release online at: https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/System_Center_Suite/Management_Pack
 
 ## RELEASE COMPATIBILITY
 This release is compatible with FlashArrays with Purity Operating Environment **4.7.0** and above.
