@@ -33,7 +33,7 @@ A standalone MSI installer is provided to install the management pack. The MSI i
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p> :wrench: To report issues or request new features, please open a support ticket at:</em></p>
+<p> :wrench: The repository 'Issues' feature has been disabled. To report issues, please open a support ticket at:</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
