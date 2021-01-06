@@ -33,15 +33,11 @@ A standalone MSI installer is provided to install the management pack. The MSI i
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p> :wrench: The repository 'Issues' feature has been disabled. To report issues, please open a support ticket at:</em></p>
+<p> :wrench: <a href="https://github.com/PureStorage-Connect/SCOM-Management-Pack/issues">To report an issue, click this link or the Issues link above.</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="support.purestorage.com">https://support.purestorage.com</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p> :question: For questions,&nbsp;<a href="https://codeinvite.purestorage.com/">join our Pure Storage Code Slack</a>&nbsp;team!</p>
+<p> :question: For questions or comments,&nbsp;<a href="https://codeinvite.purestorage.com/">join our Pure Storage Code Slack</a>&nbsp;team!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
