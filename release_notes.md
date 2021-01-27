@@ -1,5 +1,5 @@
 ﻿# Pure Storage FlashArray Management Pack for Microsoft System Center Operations Manager
-# Version 1.2.7.0 Release Notes
+# Version 1.2.9.0 Release Notes
 
 Get the latest information about this release online at: https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/System_Center_Suite/Management_Pack
 
@@ -14,6 +14,7 @@ This release requires Microsoft System Center Operations Manager **2012R2**, **2
     -   Allow for the bulk changing of thresholds in Rules, Monitors, and Discoveries.
 
 ## FIXES
+-   Fixed issue with SDK request timings for slow queries and responses. (PurePowerShellSDK v1.17.16.0)
 -   Fixed resource leak problems that were triggered by running some rules, monitors and/or discovery tasks.
 -   Corrected the Pure Storage SCOM support link visible in the alerts.
 -   Corrected measurement unit issues in Bandwidth,IOPS monitor and rule.
