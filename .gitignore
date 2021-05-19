@@ -217,3 +217,5 @@ pip-log.txt
 .mr.developer.cfg
 /Junk/*.*
 .vscode/settings.json
+
+settings.json
