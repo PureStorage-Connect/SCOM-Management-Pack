@@ -23,6 +23,11 @@ This release requires Microsoft System Center Operations Manager **2012R2**, **2
 -   Added alert messages for the Alert Rule Monitor and the Port Health Monitor.
 -   Fixed issue with Discovery regex pattern that would not allow more than one array to be added to the MP (from v1.2.5.0)
 
+## KNWON ISSUES
+-   Due to a current FlashArray limitation, File Services virtual interfaces (filevif) are either not discovered or are shown as disconnected or down. This is expected to be resolved in a upcoming release.
+
+-   The management pack currently does not work with SCOM Resource Pools or targeting individual member servers in a Management Group. This will be addressed in a future revision.
+
 ## INSTALLATION AND UNINSTALLATION
 -   To install the Management Pack, extract and run **SCOMManagementPackInstaller.msi**, and follow the instructions.
 -   The software can be uninstalled from **Programs and Features** of the Control Panel.
