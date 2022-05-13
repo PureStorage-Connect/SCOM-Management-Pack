@@ -1,41 +1,29 @@
-﻿# Pure Storage FlashArray Management Pack for Microsoft System Center Operations Manager
-
-## Version 1.2.12.0 Release Notes
-
-Fixes:
-* Fixed an issue where duplicate alerts might be added to SCOM.
+﻿# Pure Storage FlashArray Management Pack for Microsoft System Center Operations Manager Version 1.2.21.0 Release Notes
 
 Get the latest information about this release online at: https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/System_Center_Suite/Management_Pack
 
 ## RELEASE COMPATIBILITY
-
 This release is compatible with FlashArrays with Purity Operating Environment **4.7.0** and above.
-This release requires Microsoft System Center Operations Manager **2012R2**, **2016**, or **2019**.
-This release has not been tested in an Azure Stack environment.
 
-## KNOWN ISSUES
+This release requires Microsoft System Center Operations Manager **2012R2**, **2016**, **2019**, or **2022**
 
-- Due to a current FlashArray limitation, File Services virtual interfaces (filevif) are either not discovered or are shown as disconnected or down. This is expected to be resolved in a upcoming release.
-
-- The management pack currently does not work with SCOM Resource Pools or targeting individual member servers in a Management Group. This will be addressed in a future revision.
-
-- This version has not been tested in Azure Stack environments.
-
-- This version will report a DirectFlash Shelf (DFS) controller as unhealthy and may show it in a Critical state. This will be resolved in the next release.
+## FIXES
+-   Fixed an error where the Array metrics for Bandwidth and IOPs were interchanged
+-   Added more detailed description for Alerts
+-   Added more detailed description for Monitors
+-   Fixed a bug in alerting for used storage
+-   Fixed an issue where latest purity releases (6.1.14 and later) might not be able to retrieve some of the Array alerts due to security updates
 
 ## INSTALLATION AND UNINSTALLATION
+-   To install the Management Pack, extract and run **SCOMManagementPackInstaller.msi**, and follow the instructions.
 
-- To install the Management Pack, extract and run **SCOMManagementPackInstaller.msi**, and follow the instructions.
-- The software can be uninstalled from **Programs and Features** of the Control Panel.
+-   The software can be uninstalled from **Programs and Features** of the Control Panel.
 
 ## PERFORMANCE TESTING
-
 No performance testing was done for this release.
 
 ## END USER LICENSE AGREEMENT
-
-Please review the **EndUserLicenseAgreement.pdf** file
+Please review the **EndUserLicenseAgreement.pdf** or **EUA.rtf** file
 
 ## OPEN SOURCE LICENSES
-
 Please review **licenses.txt**
