@@ -19,6 +19,7 @@ A standalone MSI installer is provided to install the management pack. The MSI i
 <!-- /wp:separator -->
 
 ### :date: HISTORY
+* [v1.2.20.0]
 * [v1.2.12.0]
 * [v1.2.9.0]
 * [v1.1.99.0]
