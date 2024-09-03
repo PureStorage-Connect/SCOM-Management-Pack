@@ -1,4 +1,4 @@
-﻿# Pure Storage FlashArray Management Pack for Microsoft System Center Operations Manager Version 2.0.19.0 Release Notes
+﻿# Pure Storage FlashArray Management Pack for Microsoft System Center Operations Manager Version 2.0.116.0 Release Notes
 
 Get the latest information about this release online at: https://support.purestorage.com/Solutions/Microsoft_Platform_Guide/System_Center_Suite/Management_Pack
 
@@ -9,7 +9,29 @@ This release requires Microsoft System Center Operations Manager **2016**, **201
 
 Upgrading to this release of the Pure Storage FlashArray Management Pack is supported from versions 1.2.9, 1.2.12, and 1.2.20.
 
-## What is New
+## What is New for 2.0.116.0
+
+- Support FlashArray C and Cloud Block Store arrays
+- Support Arrays with Direct Flash Shelves (DFS)
+
+## Known Issues
+
+The v2.0.116.0 release will install in a greenfield deployment or perform an upgrade if the v1.x version of the Pure Storage SCOM Management Pack is installed.
+Upgrade from v2.0.19.0 using the upgrade wizard is unsupported and will fail. A workaround for an existing v2.0.19.0 deployment, is to manually import the management pack. The management pack can be extracted from the MSI or downloaded directly (PureStorageFlashArray.mpb) from this release.
+For more details on importing a management pack, see: https://learn.microsoft.com/en-us/system-center/scom/manage-mp-import-remove-delete?view=sc-om-2022
+
+# Manual Import Summary
+
+In the Operations console, select Administration.
+- Right-click Management Packs, and select Import Management Packs.
+- The 'Import Management Packs' wizard opens. Select Add, and then select Add from disk.
+- The 'Select Management Packs to import' dialog appears. If necessary, change to the directory that holds the PureStorageFlashArray.mpb management pack file and select Open.
+- On the Select Management Packs page, the management packs that you selected for import are listed. A green check mark indicates that the management pack can be imported. Select Import.
+- Select Close.
+  
+Follow Pure's Management Pack Guide on configuring an override management pack and adding FlashArrays to Operations Manager: https://github.com/PureStorage-Connect/SCOM-Management-Pack/blob/main/SCOMManagementPack-Guide.pdf (edited)
+
+## What is New for 2.0.19.0
 -	Supports SCOM Resource Pools on installation
 -	Endpoint and Resource Pool editing in the GUI
 -	Updated Dashboards with more details and larger alerts section
