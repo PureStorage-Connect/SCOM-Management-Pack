@@ -11,7 +11,7 @@ Upgrading to this release of the Pure Storage FlashArray Management Pack is supp
 
 ## What is New for 2.0.120.0
 
-- Resolve a failure to retrieve alerts from Pure Storage Flash Arrays version 6.5 and above
+- Resolve a failure to retrieve alerts from Pure Storage Flash Arrays version 6.5 and above. This is due to security hardening and the reduction in allowed cyphers in Purity 6.5+ that alerts utilize. This update will be required to enable alerts on any FlashArray with 6.5+ of Purity: FA//X, FA//XL, FA//C, FA//E, Cloud Block Store.
   
 ## What is New for 2.0.116.0
 
