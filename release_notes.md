@@ -9,6 +9,10 @@ This release requires Microsoft System Center Operations Manager **2016**, **201
 
 Upgrading to this release of the Pure Storage FlashArray Management Pack is supported from versions 1.2.9, 1.2.12, and 1.2.20.
 
+## What is New for 2.0.120.0
+
+- Resolve a failure to retrieve alerts from Pure Storage Flash Arrays version 6.5 and above
+- 
 ## What is New for 2.0.116.0
 
 - Support FlashArray C and Cloud Block Store arrays
